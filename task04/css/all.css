@@ -1,0 +1,29 @@
+div{
+	box-sizing: border-box;
+}
+.container{
+	min-width:400px;
+	background-color: #ccc;
+	position: absolute;
+	top:50%;
+	left:50%;
+	width: 400px;
+	height:200px;
+	margin: -100px 0 0 -200px;
+}
+.leftTop,.rightBottom{
+	position: absolute;
+	background: #fc0;
+	width:50px;
+	height:50px;
+}
+.leftTop{
+	top:0px;
+	left:0px;
+	border-bottom-right-radius:50px	;
+}
+.rightBottom{
+	right:0px;
+	bottom:0px;
+	border-top-left-radius:50px	;
+}
